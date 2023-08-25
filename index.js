@@ -14,7 +14,6 @@ export class LinkedList {
 
   constructor() {
     this.head = null;
-    im;
     this.tail = null;
   }
 
