@@ -1,10 +1,3 @@
-// Import stylesheets
-import './style.css';
-
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
-
 class LinkedListNode {
   value;
   next;
@@ -15,12 +8,13 @@ class LinkedListNode {
   }
 }
 
-class LinkedList {
+export class LinkedList {
   head;
   tail;
 
   constructor() {
     this.head = null;
+    im;
     this.tail = null;
   }
 
