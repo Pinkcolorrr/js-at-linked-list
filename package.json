@@ -2,7 +2,7 @@
   "name": "at-linked-list",
   "description": "base implementation of linked list",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "license": "ISC",
   "dependencies": {}
 }
