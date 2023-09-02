@@ -126,4 +126,16 @@ export class LinkedList {
     this.head = this.head.next;
     return deletedNode;
   }
+
+  length() {
+    let length = 0;
+    let currentNode = this.head;
+
+    while (currentNode) {
+      length++;
+      currentNode = currentNode.next;
+    }
+
+    return length;
+  }
 }
