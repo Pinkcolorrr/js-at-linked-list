@@ -67,14 +67,14 @@ export class LinkedList {
     return deletedNode;
   }
 
-  find(value) {
+  find(fn) {
     if (!this.head) {
       return null;
     }
 
     let currentNode = this.head;
     while (currentNode) {
-      if (currentNode.value === value) {
+      if (fn(currentNode.value)) {
         return currentNode;
       }
 
